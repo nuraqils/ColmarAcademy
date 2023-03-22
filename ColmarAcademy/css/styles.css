@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Common Styles */
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+
+h1 {
+    font-weight: bold;
+}
+
+.padding16 {
+    padding: 16px;
+}
+
+.padding24 {
+    padding: 24px;
+}
+
+.padding32 {
+    padding: 32px;
+}
+
+/* Logo and Nav */
+header {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+}
+
+.head {
+    padding: 0px 24px;
+}
+
+.head div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #01161E;
+}
+
+header span {
+    color: #9f9b9b;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+}
+
+nav a {
+    padding: 0px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Section1 */
+.section1 {
+    display: flex;
+    background-color: #c4c2c2;
+}
+
+.banner {
+    padding: 32px 24px;
+    width: 60%;
+
+}
+.banner img {
+    width: 100%;
+}
+
+.secttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:  #4f4f4f;
+}
+
+.button {
+    width: 60%;
+    background-color: #515151;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 8px 0px;
+}
+
+.secttext a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section 2 */
+.section2 {
+    display: flex;
+    background-color: white;
+}
+
+.mainInfo {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.mainInfo img {
+    width: 100%;
+}
+
+.postnav img {
+    padding: 32px;
+    height: auto;
+    width: 35%;
+}
+
+.postnav {
+    display: flex;
+    flex-direction: column;
+}
+
+.guestlect {
+    background-color: #c4c2c2;
+}
+
+
+
+
+
